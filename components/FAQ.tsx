@@ -68,7 +68,7 @@ export default function FAQ() {
               >
                 <button
                   onClick={() => setActive(isOpen ? null : index)}
-                  className="flex w-full items-center justify-between px-7 py-6 text-left"
+                  className="cursor-pointer flex w-full items-center justify-between px-7 py-6 text-left"
                 >
                   <span
                     className={`text-lg font-semibold ${

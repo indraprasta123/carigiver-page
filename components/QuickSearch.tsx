@@ -70,7 +70,7 @@ export default function QuickSearch() {
                 <button
                   key={index}
                   onClick={() => setSelected(index)}
-                  className={`rounded-2xl border p-6 transition-all text-left duration-300 ${
+                  className={`cursor-pointer rounded-2xl border p-6 transition-all text-left duration-300 ${
                     selected === index
                       ? "border-[#1D8FE1] bg-blue-50 shadow-lg"
                       : "border-slate-200 hover:border-[#1D8FE1] hover:shadow-md"
@@ -105,13 +105,13 @@ export default function QuickSearch() {
                 <input
                   type="text"
                   placeholder="Contoh: Jakarta Selatan, Depok, Bekasi"
-                  className="w-full rounded-2xl border border-slate-300 py-4 pl-14 pr-5 transition focus:border-[#1D8FE1] focus:ring-4 focus:ring-blue-100"
+                  className="w-full rounded-2xl border border-slate-300 bg-white py-4 pl-14 pr-5 text-slate-900 placeholder:text-slate-400 outline-none transition focus:border-[#1D8FE1] focus:ring-4 focus:ring-blue-100"
                 />
               </div>
             </div>
 
             <div className="flex items-end">
-              <button className="w-full lg:w-auto rounded-2xl bg-[#1D8FE1] hover:bg-[#1679C4] transition px-10 py-4 text-white font-semibold flex items-center justify-center gap-2 shadow-lg">
+              <button className="cursor-pointer w-full lg:w-auto rounded-2xl bg-[#1D8FE1] hover:bg-[#1679C4] transition px-10 py-4 text-white font-semibold flex items-center justify-center gap-2 shadow-lg">
                 Cari Perawat
                 <ArrowRight size={20} />
               </button>

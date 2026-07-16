@@ -35,14 +35,14 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Button */}
-        <button className="hidden lg:block rounded-lg bg-[#1D8FE1] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#1679C4]">
+        <button className="cursor-pointer hidden lg:block rounded-lg bg-[#1D8FE1] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#1679C4]">
           Cari Perawat
         </button>
 
         {/* Mobile */}
         <button
           onClick={() => setOpen(!open)}
-          className="lg:hidden text-slate-700"
+          className="cursor-pointer lg:hidden text-slate-700"
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -70,7 +70,7 @@ export default function Navbar() {
                 </a>
               ))}
 
-              <button className="mt-2 w-full rounded-lg bg-[#1D8FE1] py-3 font-semibold text-white transition hover:bg-[#1679C4]">
+              <button className="cursor-pointer mt-2 w-full rounded-lg bg-[#1D8FE1] py-3 font-semibold text-white transition hover:bg-[#1679C4]">
                 Cari Perawat
               </button>
             </div>

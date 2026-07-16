@@ -91,7 +91,7 @@ export default function Services() {
                   {service.description}
                 </p>
 
-                <button className="mt-6 flex items-center gap-2 font-semibold text-[#1D8FE1] transition-all group-hover:gap-3">
+                <button className="cursor-pointer mt-6 flex items-center gap-2 font-semibold text-[#1D8FE1] transition-all group-hover:gap-3">
                   Lihat Detail
                   <ArrowRight size={18} />
                 </button>

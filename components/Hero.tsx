@@ -41,12 +41,12 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <button className="rounded-xl bg-[#1D8FE1] px-8 py-4 font-semibold text-white transition hover:bg-[#1679C4] flex items-center gap-2">
+              <button className="cursor-pointer rounded-xl bg-[#1D8FE1] px-8 py-4 font-semibold text-white transition hover:bg-[#1679C4] flex items-center gap-2">
                 Cari Perawat
                 <ArrowRight size={20} />
               </button>
 
-              <button className="rounded-xl border border-[#1D8FE1] px-8 py-4 font-semibold text-[#1D8FE1] transition hover:bg-[#1D8FE1] hover:text-white">
+              <button className="cursor-pointer rounded-xl border border-[#1D8FE1] px-8 py-4 font-semibold text-[#1D8FE1] transition hover:bg-[#1D8FE1] hover:text-white">
                 Konsultasi Gratis
               </button>
             </div>
@@ -131,7 +131,7 @@ export default function Hero() {
                   ✔ Siap Bertugas
                 </span>
 
-                <button className="text-sm font-semibold text-[#1D8FE1] hover:underline">
+                <button className="cursor-pointer text-sm font-semibold text-[#1D8FE1] hover:underline">
                   Lihat Layanan →
                 </button>
               </div>
