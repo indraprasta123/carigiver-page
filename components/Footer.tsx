@@ -33,10 +33,10 @@ export default function Footer() {
 
           <ul className="space-y-3">
             {[
-              "Pendamping Lansia",
-              "Perawatan Medis",
-              "Baby Care",
-              "Home Care",
+              "Perawat Lansia",
+              "Perawat Orang Sakit",
+              "Perawat Pasca Stroke",
+              "Perawat Pasca ICU",
             ].map((item) => (
               <li
                 key={item}

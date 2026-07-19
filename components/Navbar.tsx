@@ -4,7 +4,14 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const menus = ["Home", "Layanan", "Tentang", "Testimoni", "FAQ"];
+const menus = [
+  "Home",
+  "Layanan",
+  "Tentang",
+  "Pelatihan & Prestasi",
+  "Testimoni",
+  "FAQ",
+];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
